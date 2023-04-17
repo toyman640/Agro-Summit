@@ -105,3 +105,25 @@ body {
   justify-content: center;
   margin: 0;
 }
+
+.speaker-card {
+    display: grid;
+    grid-template-columns: 10px 1fr;
+}
+
+.about-main {
+
+}
+
+.about-word {
+    text-align: center;
+}
+
+.about-last {
+    font-size: 0.7em;
+    border: 1px solid red;
+    width: 70%;
+    margin-left: 15%;
+    text-align: center;
+    
+}
