@@ -1,0 +1,61 @@
+
+body {
+  margin: 0;
+}
+
+.main-color {
+  color: #ec5242;
+}
+
+.first-section {
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("images/farm-bg.jpg");
+  background-size: cover;
+  margin: 0;
+}
+
+.hamburger {
+  padding: 25px;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: center;
+}
+
+.intro-texts {
+  width: 90%;
+}
+
+.foreword {
+  background: #d3d3d3;
+  border: 4px solid #fff;
+}
+
+.text-excl {
+  font-size: 1.5em;
+}
+
+.last-text {
+  margin-bottom: 50px;
+}
+
+.second-section {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0)), url("images/sergey-lapunin-M7ho2fjOpjE-unsplash.jpg");
+}
+
+.section-content {
+    text-align: center;
+    width: 90%;
+}
+
+.title-text {
+    /* margin: 0; */
+}
+
+.horizontal-line {
+    border: 1px solid #ec5242;
+    width: 15%;
+}
