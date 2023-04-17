@@ -29,7 +29,7 @@ body {
 
 .foreword {
   background: #d3d3d3;
-  border: 4px solid #fff;
+  border: 2px solid #fff;
 }
 
 .text-excl {
@@ -53,12 +53,12 @@ body {
 }
 
 .title-text {
-  /* margin: 0; */
+  padding-bottom: 20px;
 }
 
 .horizontal-line {
   border: 1px solid #ec5242;
-  width: 15%;
+  width: 5%;
 }
 
 .program-card {
@@ -107,23 +107,74 @@ body {
 }
 
 .speaker-card {
-    display: grid;
-    grid-template-columns: 10px 1fr;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-bottom: 50px;
+}
+
+.speaker-name {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #272a31;
+  margin: 3px 0;
+}
+
+.speaker-qualification {
+  margin: 10px 0;
+}
+
+.speaker-image {
+  height: 100px;
+}
+
+.speaker-info {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+
+}
+
+.speaker-hr {
+  margin: 5px;
+  width: 5%;
+  border: 2px solid #d3d3d3;
 }
 
 .about-main {
 
 }
 
+.about-content {
+  padding-top: 20px;
+}
+
 .about-word {
-    text-align: center;
+  text-align: center;
 }
 
 .about-last {
-    font-size: 0.7em;
-    border: 1px solid red;
-    width: 70%;
-    margin-left: 15%;
-    text-align: center;
-    
+  font-size: 0.7em;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center; 
+}
+
+.more-speakers {
+  margin-bottom: 50px;
+}
+
+.angle-down {
+  height: 15px;
+}
+
+.more-speakers-button {
+  background: #fff;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #d3d3d3;
+}
+
+.small-text {
+  margin: 10px 0;
 }
