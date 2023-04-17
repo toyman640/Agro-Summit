@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
 
 body {
   margin: 0;
@@ -43,19 +44,64 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0)), url("images/sergey-lapunin-M7ho2fjOpjE-unsplash.jpg");
+  background: linear-gradient(rgba(51, 49, 49, 0.4), rgba(51, 49, 49, 0.4)), url("images/sergey-lapunin-M7ho2fjOpjE-unsplash.jpg");
 }
 
 .section-content {
-    text-align: center;
-    width: 90%;
+  text-align: center;
+  width: 95%;
 }
 
 .title-text {
-    /* margin: 0; */
+  /* margin: 0; */
 }
 
 .horizontal-line {
-    border: 1px solid #ec5242;
-    width: 15%;
+  border: 1px solid #ec5242;
+  width: 15%;
+}
+
+.program-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  background: rgba(39, 42, 49, 0.6);
+  margin-bottom: 10px;
+}
+
+.card-title {
+  padding-top: 10px;
+}
+
+.card-image {
+  padding: 25px;
+}
+
+.card-info {
+  color: #d3d3d3;
+}
+
+.button-space {
+  margin-top: 50px;
+}
+
+.large-button {
+  background: #ec5242;
+  border: 0;
+  width: 80%;
+  height: 80px;
+  margin-bottom: 50px;
+}
+
+.large-button-link {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3em;
+  text-decoration: none;
+  color: #d3d3d3;
+  font-weight: 540;
+}
+
+.third-section {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
