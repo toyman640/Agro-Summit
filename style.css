@@ -23,13 +23,31 @@ body {
   justify-content: center;
 }
 
+.top-header {
+  font-size: 2.5em;
+  color: #ec5242;
+  background: url('images/farm-bg.jpg') no-repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
 .intro-texts {
   width: 90%;
 }
 
 .foreword {
+  font-size: 16px;
   background: #d3d3d3;
   border: 2px solid #fff;
+}
+
+.event-date {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin: 24px 0 5px;
 }
 
 .text-excl {
@@ -37,7 +55,7 @@ body {
 }
 
 .last-text {
-  margin-bottom: 50px;
+  margin: 0 0 50px;
 }
 
 .second-section {
@@ -142,7 +160,8 @@ body {
 }
 
 .about-main {
-
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("images/about-bg.jpg");
+  background-size: contain;
 }
 
 .about-content {
@@ -151,6 +170,7 @@ body {
 
 .about-word {
   text-align: center;
+  background: #fff;
 }
 
 .about-last {
