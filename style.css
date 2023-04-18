@@ -207,6 +207,13 @@ body {
   display: none;
 }
 
+.foot-section {
+  display: none;
+}
+
+.desk-speaks {
+  display: none;
+}
 
 @media screen and (min-device-width: 768px) {
   .hamburger {
@@ -298,12 +305,13 @@ body {
 
   .last-text {
     font-size: 1.3em;
+    margin-bottom: 200px;
   }
 
   .desk-prog {
     display: flex;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .program-card {
@@ -313,9 +321,9 @@ body {
   }
 
   .card-image {
-    /* height: 25%; */
     width: 25%;
     margin-left: 25%;
+    margin-bottom: 0;
   }
 
   .button-space {
@@ -339,6 +347,108 @@ body {
 
   .horizontal-line {
     width: 3%;
+  }
+
+  .card-info {
+    margin-top: 0;
+    padding: 0 5%;
+  }
+
+  .card-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .speaker-title {
+    color: #000;
+  }
+
+  .speaker-card {
+    display: none;
+  }
+
+  .more-speakers {
+    display: none;
+  }
+
+  .desk-speaks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 80px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .desk-card {
+    display: flex;
+  }
+
+  .desk-card-img {
+    width: 25%;
+    height: 100%;
+    padding: 8px;
+  }
+
+  .desk-card-content {
+    padding: 10px;
+    text-align: start;
+  }
+
+  .desk-speaker-name {
+    font-size: 1.3em;
+    font-weight: 700;
+    margin: 0 0 8px;
+  }
+
+  .desk-speaker-qualification {
+    font-style: italic;
+    font-weight: 600;
+    color: #ec5242;
+    margin: 0 0 8px;
+  }
+
+  .desk-small-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #272a31;
+    margin: 15px 0 0 0;
+  }
+
+  .partners {
+    background: #272a31;
+  }
+
+  .move-foot {
+    text-align: center;
+    padding-top: 50px;
+    color: #d3d3d3;
+  }
+
+  .sponsor-logos {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-left: 10%;
+    justify-content: space-between;
+  }
+
+  .sponsor-logo {
+    width: 15%;
+    margin-bottom: 70px;
+  }
+
+  .main-footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 80%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 10%;
+    
+  }
+
+  .foot-section {
+    display: block;
   }
 }
 
