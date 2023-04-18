@@ -198,3 +198,148 @@ body {
 .small-text {
   margin: 10px 0;
 }
+
+.desk-nav {
+  display: none;
+}
+
+.desk-prog-info {
+  display: none;
+}
+
+
+@media screen and (min-device-width: 768px) {
+  .hamburger {
+    display: none;
+  }
+
+  .desk-nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fixed-top {
+    display: flex;
+    justify-content: end;
+  }
+
+  .fixed-ul {
+    display: flex;
+    color: #fff;
+    list-style: none;
+    width: 22%;
+    margin-right: 9%;
+    justify-content: space-between;
+  }
+
+  .fixed-top {
+    background: #272a31;
+  }
+
+  .main-nav {
+    background: #fff;
+  }
+
+  .desk-nav-bg {
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .menu-items {
+    display: flex;
+    width: 50%;
+    margin-right: 10%;
+    justify-content: space-between;
+  }
+
+  .menu-items ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 75%;
+  }
+
+  .menu-button {
+    color: #ec5242;
+    height: 75%;
+    border: 5px solid #ec5242;
+    margin-top: 5px;
+    background: #fff;
+  }
+
+  .intro-texts {
+    margin-top: 100px;
+    width: 60%;
+    margin-right: 15%;
+  }
+
+  .text-excl {
+    font-size: 3em;
+    margin-bottom: 0;
+  }
+
+  .top-header {
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+
+  .foreword {
+    width: 75%;
+    font-size: 1.2em;
+    margin-top: 0;
+    padding: 15px;
+  }
+
+  .event-date {
+    font-size: 2em;
+  }
+
+  .last-text {
+    font-size: 1.3em;
+  }
+
+  .desk-prog {
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+  }
+
+  .program-card {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5px;
+  }
+
+  .card-image {
+    /* height: 25%; */
+    width: 25%;
+    margin-left: 25%;
+  }
+
+  .button-space {
+    display: none;
+  }
+
+  .title-text {
+    font-size: 2em;
+    color: #fff;
+  }
+
+  .desk-prog-info {
+    color: #fff;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+
+  .horizontal-line {
+    width: 3%;
+  }
+}
+
+
