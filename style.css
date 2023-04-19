@@ -224,6 +224,11 @@ body {
   display: none;
 }
 
+.show-more {
+  text-decoration: none;
+  color: #272a31;
+}
+
 /* styling for moblie about page */
 
 .about-header {
