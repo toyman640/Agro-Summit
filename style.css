@@ -29,7 +29,6 @@ body {
   background: url('images/farm-bg.jpg') no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  
 }
 
 .intro-texts {
@@ -150,7 +149,6 @@ body {
   display: flex;
   flex-direction: column;
   text-align: start;
-
 }
 
 .speaker-hr {
@@ -234,7 +232,7 @@ body {
   width: 85%;
   margin-left: 7.5%;
   text-align: center;
-  margin-bottom: 50px; 
+  margin-bottom: 50px;
 }
 
 .about-mail {
@@ -267,8 +265,8 @@ body {
 .logo-inside {
   margin-top: 15px;
   margin-bottom: 60px;
- border: 1px solid #d3d3d3;
- width: 80%;
+  border: 1px solid #d3d3d3;
+  width: 80%;
 }
 
 .about-into-view {
@@ -311,7 +309,8 @@ body {
 
 .about-partners {
   text-align: center;
-  padding-top: 30px;padding-bottom: 10px;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 
 .partners-about {
@@ -319,10 +318,10 @@ body {
 }
 
 .about-sponsor-logos {
- display: flex;
- width: 90%;
- margin-left: 5%;
- justify-content: space-around;
+  display: flex;
+  width: 90%;
+  margin-left: 5%;
+  justify-content: space-around;
 }
 
 .about-sponsor-logo {
@@ -368,6 +367,7 @@ body {
   .fixed-top {
     display: flex;
     justify-content: end;
+    background: #272a31;
   }
 
   .fixed-ul {
@@ -379,10 +379,6 @@ body {
     justify-content: space-between;
   }
 
-  .fixed-top {
-    background: #272a31;
-  }
-
   .main-nav {
     background: #fff;
   }
@@ -390,7 +386,6 @@ body {
   .desk-nav-bg {
     display: flex;
     justify-content: space-between;
-
   }
 
   .menu-items {
@@ -567,7 +562,6 @@ body {
 
   .sponsor-logos {
     display: flex;
-    justify-content: center;
     width: 80%;
     margin-left: 10%;
     justify-content: space-between;
@@ -585,7 +579,6 @@ body {
     margin-top: 80px;
     margin-bottom: 80px;
     margin-left: 10%;
-    
   }
 
   .foot-section {
@@ -594,7 +587,7 @@ body {
 
   /* styling for about desktop page */
 
-  .about-header{
+  .about-header {
     width: 80%;
     font-size: 3em;
     margin-left: 20%;
@@ -652,8 +645,9 @@ body {
   .foot-desk {
     background: #272a31;
     margin-bottom: 0;
-    /* min-height: 100vh; */
+  }
+
+  .ham-menu {
+    display: none;
   }
 }
-
-
