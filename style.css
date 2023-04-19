@@ -194,6 +194,10 @@ body {
   display: none;
 }
 
+.desk-addition {
+  display: none;
+}
+
 /* styling for moblie about page */
 
 .about-header {
@@ -226,18 +230,11 @@ body {
 }
 
 .about-last {
-  font-size: 0.7em;
-  width: 70%;
-  margin-left: 15%;
-  text-align: center; 
-}
-
-.about-last {
   font-size: 1em;
   width: 85%;
   margin-left: 7.5%;
-  margin-bottom: 50px;
- 
+  text-align: center;
+  margin-bottom: 50px; 
 }
 
 .about-mail {
@@ -352,6 +349,10 @@ body {
 .about-footer-image {
   width: 80%;
   padding: 8px;
+}
+
+.desk-about-sum-display {
+  display: none;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -593,7 +594,66 @@ body {
 
   /* styling for about desktop page */
 
-  
+  .about-header{
+    width: 80%;
+    font-size: 3em;
+    margin-left: 20%;
+  }
+
+  .about-word {
+    width: 80%;
+    margin-left: 20%;
+    font-size: 1em;
+  }
+
+  .about-last {
+    width: 50%;
+    margin-left: 35%;
+  }
+
+  .about-logo {
+    width: 60%;
+  }
+
+  .logo-inside {
+    border: 3px solid #d3d3d3;
+    width: 50%;
+  }
+
+  .about-sum-ind {
+    display: none;
+  }
+
+  .desk-about-sum-display {
+    display: flex;
+    width: 90%;
+    height: 300px;
+    margin-bottom: 70px;
+  }
+
+  .item-sum-1 {
+    margin: 0 10px;
+  }
+
+  .inside-text-date {
+    color: #fff;
+    font-size: 3em;
+  }
+
+  .sum-loc {
+    color: #fff;
+    font-size: 1.5em;
+  }
+
+  .partners-about {
+    display: none;
+  }
+
+  .foot-desk {
+    background: #272a31;
+    margin-bottom: 0;
+    /* min-height: 100vh; */
+  }
 }
 
 
