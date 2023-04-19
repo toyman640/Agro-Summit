@@ -159,27 +159,6 @@ body {
   border: 2px solid #d3d3d3;
 }
 
-.about-main {
-  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("images/about-bg.jpg");
-  background-size: contain;
-}
-
-.about-content {
-  padding-top: 20px;
-}
-
-.about-word {
-  text-align: center;
-  background: #fff;
-}
-
-.about-last {
-  font-size: 0.7em;
-  width: 70%;
-  margin-left: 15%;
-  text-align: center; 
-}
-
 .more-speakers {
   margin-bottom: 50px;
 }
@@ -213,6 +192,166 @@ body {
 
 .desk-speaks {
   display: none;
+}
+
+/* styling for moblie about page */
+
+.about-header {
+  font-size: 2em;
+  color: #ec5242;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.about-main {
+  background: linear-gradient(rgba(211, 211, 211, 0.8), rgba(211, 211, 211, 0.8)), url("images/about-bg.jpg") no-repeat;
+  background-size: cover;
+}
+
+.about-excl {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.about-content {
+  padding-top: 20px;
+}
+
+.about-word {
+  font-family: 'Lato', sans-serif;
+  color: #272a31;
+  font-weight: 500;
+  text-align: center;
+  background: #fff;
+}
+
+.about-last {
+  font-size: 0.7em;
+  width: 70%;
+  margin-left: 15%;
+  text-align: center; 
+}
+
+.about-last {
+  font-size: 1em;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-bottom: 50px;
+ 
+}
+
+.about-mail {
+  text-decoration: underline;
+}
+
+.second-about-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  margin-top: 30px;
+}
+
+.about-second-header {
+  font-family: 'Lato', sans-serif;
+  width: 60%;
+  text-align: center;
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+
+.about-logo {
+  font-family: 'Lato', sans-serif;
+  width: 80%;
+  text-align: center;
+  margin-top: 0;
+}
+
+.logo-inside {
+  margin-top: 15px;
+  margin-bottom: 60px;
+ border: 1px solid #d3d3d3;
+ width: 80%;
+}
+
+.about-into-view {
+  margin-top: 20px;
+  margin-left: 32.5%;
+  width: 40%;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+.third-about-section {
+  border-top: 2px solid #d3d3d3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-second-header-text {
+  width: 80%;
+  text-align: center;
+}
+
+.bg-div-1 {
+  background: linear-gradient(rgba(232, 82, 66, 0.8), rgba(232, 82, 66, 0.8)), url("images/div-bg-1.jpg") no-repeat;
+  background-size: cover;
+  width: 80%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.inside-text-date {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.sum-loc {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about-partners {
+  text-align: center;
+  padding-top: 30px;padding-bottom: 10px;
+}
+
+.partners-about {
+  background: #272a31;
+}
+
+.about-sponsor-logos {
+ display: flex;
+ width: 90%;
+ margin-left: 5%;
+ justify-content: space-around;
+}
+
+.about-sponsor-logo {
+  width: 20%;
+  margin-bottom: 10px;
+}
+
+.about-sponsor-logos-2 {
+  display: flex;
+  margin-top: 0;
+  justify-content: space-around;
+  padding-bottom: 50px;
+}
+
+.main-about-footer {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 80%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+.about-footer-image {
+  width: 80%;
+  padding: 8px;
 }
 
 @media screen and (min-device-width: 768px) {
@@ -377,6 +516,7 @@ body {
     grid-row-gap: 80px;
     width: 80%;
     margin-left: 10%;
+    margin-bottom: 100px;
   }
 
   .desk-card {
@@ -450,6 +590,10 @@ body {
   .foot-section {
     display: block;
   }
+
+  /* styling for about desktop page */
+
+  
 }
 
 
