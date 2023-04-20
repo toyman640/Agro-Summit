@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  font-family: 'Lato', sans-serif;
 }
 
 .main-color {
@@ -13,6 +14,23 @@ body {
   background-size: cover;
   margin: 0;
   height: 100vh;
+}
+
+.ham-menu ul li {
+  margin-top: 10px;
+}
+
+.ham-links {
+ text-decoration: none;
+ color: #ec5242;
+}
+
+.ham-menu a:hover {
+  text-shadow: 5px 5px 5px rgba(39, 42, 49, 1);
+}
+
+.more-speakers-button:hover {
+  box-shadow:  3px 3px 3px rgba(39, 42, 49, 1);;
 }
 
 .hamburger {
@@ -28,6 +46,7 @@ body {
   height: 100vh;
   position: absolute;
   backdrop-filter: blur(4px);
+  transition: left 3s ease-in-out;
 }
 
 .ham-menu-close {
@@ -53,8 +72,8 @@ body {
 
 .top-header {
   font-size: 2.5em;
-  color: #ec5242;
-  background: url('images/farm-bg.jpg') no-repeat;
+  /* color: #ec5242; */
+  background: linear-gradient(rgba(232, 82, 66, 0.4), rgba(232, 82, 66, 0.4)), url('images/farm-bg.jpg') no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -198,9 +217,12 @@ body {
   width: 100%;
   height: 50px;
   border: 2px solid #d3d3d3;
+  cursor: pointer;
 }
 
 .small-text {
+  color: #272a31;
+  font-size: 0.7em;
   margin: 10px 0;
 }
 
@@ -401,6 +423,20 @@ body {
     display: flex;
     justify-content: end;
     background: #272a31;
+  }
+
+  .logo-image {
+    height: 100%;
+  }
+
+  .logo-div {
+    margin-left: 13%;
+  }
+
+  .about-link {
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    color: #272a31;
   }
 
   .fixed-ul {

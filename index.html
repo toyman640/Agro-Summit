@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="icon" href="images/fav-icon.ico">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -12,14 +13,14 @@
     <div class="ham-menu ham-gone">
         <a href="#" id="ham-close"><img class="ham-menu-close" src="images/pop-close.svg" alt=""></a>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Program</li>
+            <li><a class="ham-links" href="index.html"> Home</a></li>
+            <li><a class="ham-links" href="about.html"> About</a></li>
+            <li class="ham-links">Program</li>
         </ul>
     </div>
     <section class="first-section">
         <nav>
-            <a href="#" id="ham"><img class="hamburger" src="images/icons8-hamburger-menu-.png" alt=""></a>
+            <a href="#" class="ham" id="ham"><img class="hamburger" src="images/hamburger-menu.png" alt=""></a>
             <div class="desk-nav">
                 <div class="fixed-top">
                     <ul class="fixed-ul">
@@ -33,11 +34,14 @@
                 <div class="main-nav">
                     <div class="desk-nav-bg">
                         <div class="logo-div">
-                            <!-- <img src="images/desk-logo.png" alt=""> -->
+                            <a href="index.html">
+                                <img class="logo-image" src="images/my-logo-1-x.png" alt="">
+                            </a>
+                            
                         </div>
                         <div class="menu-items">
                             <ul>
-                                <li>About</li>
+                                <li><a class="about-link" href="about.html"> About</a></li>
                                 <li>Program</li>
                                 <li>Join</li>
                                 <li>Sponsor</li>
@@ -61,7 +65,7 @@
             </div>
        </div>
     </section>
-    <section class="second-section other-parts">
+    <section class="second-section parts">
         <div class="section-content">
             <h3 class="title-text">Main Program<hr class="horizontal-line"></h3>
 
@@ -228,7 +232,7 @@
             </div>
            
             <div class="more-speakers">
-                <button class="more-speakers-button"><a class="show-more" id="show-more" href="#">More <img class="angle-down" src="images/angle-down.png" alt=""></a></button>
+                <a class="show-more"  href="#"></a><button id="show-more" class="more-speakers-button">More <img class="angle-down" src="images/angle-down.png" alt=""></button></a>
             </div>
         </div>
     </section>

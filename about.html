@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="ham-menu ham-gone">
+        <a href="#" id="ham-close"><img class="ham-menu-close" src="images/pop-close.svg" alt=""></a>
+        <ul>
+            <li><a class="ham-links" href="index.html"> Home</a></li>
+            <li><a class="ham-links" href="about.html"> About</a></li>
+            <li class="ham-links">Program</li>
+        </ul>
+    </div>
     <section class="about-main">
         <nav>
-            <a href="http://"><img class="hamburger" src="images/icons8-hamburger-menu-.png" alt=""></a>
+            <a href="#" id="ham"><img class="hamburger" src="images/hamburger-menu.png" alt=""></a>
             <div class="desk-nav">
                 <div class="fixed-top">
                     <ul class="fixed-ul">
@@ -25,7 +33,9 @@
                 <div class="main-nav">
                     <div class="desk-nav-bg">
                         <div class="logo-div">
-                            <!-- <img src="images/desk-logo.png" alt=""> -->
+                            <a href="index.html">
+                                <img class="logo-image" src="images/my-logo-1-x.png" alt="">
+                            </a>
                         </div>
                         <div class="menu-items">
                             <ul>
@@ -111,5 +121,7 @@
             </div>
         </div>
     </section>
+
+    <script src="main.js"></script>
 </body>
 </html>
