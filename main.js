@@ -24,7 +24,6 @@ function hambugerHide () {
 hamClose.addEventListener('click', hambugerHide);
 
 
-let speakSec = document.querySelector('.desk-card');
 const speakImg1 = document.querySelector('#speak-img1');
 const speakName1 = document.querySelector('#speak-name1')
 const speakQuali1 = document.querySelector('#speak-quali1')
@@ -171,11 +170,12 @@ if(location.pathname === '/Agro-Summit/index.html' ) {
 const showSpeakers = document.querySelector('#show-more');
 const otherSpeakers = document.querySelector('.play-part');
 
+function displayMore (event) {
+    otherSpeakers.classList.toggle('ham-gone');
+    event.preventDefault()
+  }
+
 if(location.pathname === '/Agro-Summit/index.html' ) {
-    function displayMore (event) {
-      otherSpeakers.classList.toggle('ham-gone');
-      event.preventDefault()
-    }
     
     showSpeakers.addEventListener('click', displayMore);
 }

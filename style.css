@@ -21,16 +21,12 @@ body {
 }
 
 .ham-links {
- text-decoration: none;
- color: #ec5242;
+  text-decoration: none;
+  color: #ec5242;
 }
 
 .ham-menu a:hover {
   text-shadow: 5px 5px 5px rgba(39, 42, 49, 1);
-}
-
-.more-speakers-button:hover {
-  box-shadow:  3px 3px 3px rgba(39, 42, 49, 1);;
 }
 
 .hamburger {
@@ -72,7 +68,6 @@ body {
 
 .top-header {
   font-size: 2.5em;
-  /* color: #ec5242; */
   background: linear-gradient(rgba(232, 82, 66, 0.4), rgba(232, 82, 66, 0.4)), url('images/farm-bg.jpg') no-repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -218,6 +213,10 @@ body {
   height: 50px;
   border: 2px solid #d3d3d3;
   cursor: pointer;
+}
+
+.more-speakers-button:hover {
+  box-shadow: 3px 3px 3px rgba(39, 42, 49, 1);
 }
 
 .small-text {
