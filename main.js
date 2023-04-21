@@ -68,6 +68,7 @@ const speakerObject1 = [
 
 const firstPart = document.querySelector('.about-content');
 const buttonPart = document.querySelector('.more-speakers');
+const mainPart = document.querySelector('.desk-speaks');
 const speakerCount = 3;
 const speakerNum = 0;
 let showMore = false;
@@ -137,6 +138,41 @@ for (let i = speakerNum; i < speakerObject1.length; i += 1) {
     buttonPart.parentNode.insertBefore(div, buttonPart);
   }
 }
+
+const row1 = speaks.slice(0, 3);
+const row2 = speakerObject1.slice(3);
+
+row1.forEach((speaker) => {
+  mainPart.innerHTML += `
+  <div class="row-1">
+    <div class="desk-card">
+      <img class="desk-card-img" src="${speaker.image}" alt="speaker-picture">
+      <div class="desk-card-content">
+        <h5 class="desk-speaker-name">${speaker.name}</h5>
+        <p class="desk-speaker-qualification">${speaker.qualifications}</p>
+        <hr class="speaker-hr">
+        <p class="desk-small-text">${speaker.info}</p>
+      </div>
+    </div>
+  </div>
+  `;
+});
+
+row2.forEach((speaker) => {
+  mainPart.innerHTML += `
+  <div class="row-2">
+    <div class="desk-card">
+      <img class="desk-card-img" src="${speaker.image}" alt="speaker-picture">
+      <div class="desk-card-content">
+        <h5 class="desk-speaker-name">${speaker.name}</h5>
+        <p class="desk-speaker-qualification">${speaker.qualifications}</p>
+        <hr class="speaker-hr">
+        <p class="desk-small-text">${speaker.info}</p>
+      </div>
+    </div>
+  </div>
+  `;
+});
 
 const moreButton = document.querySelector('#show-more');
 function showRest() {
