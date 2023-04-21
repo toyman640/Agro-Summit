@@ -80,7 +80,7 @@ git clone https://github.com/toyman640/Hello_microverse.git
 
 - Navigate to the location of the folder in your machine:
 
-**``you@your-Pc-name:~$ cd Hello_microverse``**
+**``you@your-Pc-name:~$ cd Agro-Summit``**
 
 ### Install
 
@@ -164,12 +164,12 @@ Give a :star:️ if you like this project and how I managed to build it!
 
 ## :pray: Acknowledgments <a name="acknowledgements"></a>
 
-- The original design ideal from Microverse:two_hearts:.
-- Project from [Microverse](https://bit.ly/MicroverseTN) HTML/CSS module.
+- The original design idea from  Cindy Shin:Creative Commons.
+- Template from [Cindy](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) behance gallery.
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
+- Hat tip to Cindy Shin whose template was used.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
