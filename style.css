@@ -486,6 +486,9 @@ body {
     background: #fff;
   }
 
+  .intro-section {
+    height: 100vh;
+  }
   .intro-texts {
     margin-top: 100px;
     width: 60%;
